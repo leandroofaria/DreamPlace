@@ -29,7 +29,7 @@ body {
     width: 100%;
     background: #FFF7E9;
     transition: all 0.5s;
-    position: absolute;
+    position: fixed;
 }
 
 .navigation .logo {
@@ -52,6 +52,17 @@ body {
     display: flex;
     align-items: center;
     gap: 5rem;
+}
+
+.login-btn {
+    background-color: #5F9DF7;
+    padding: 10px 25px;
+    border-radius: 10rem;
+}
+
+.login-btn:hover {
+    background-color: #FFF7E9;
+;
 }
 
 .navigation ul li a {
