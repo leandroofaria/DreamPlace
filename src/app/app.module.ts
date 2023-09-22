@@ -8,6 +8,8 @@ import { LayoutComponent } from './layout/layout.component';
 import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { UsuarioComponent } from './usuario/usuario.component';
+import { HomeUserComponent } from './home-user/home-user.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { UsuarioComponent } from './usuario/usuario.component';
     LayoutComponent,
     LoginComponent,
     CadastroComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    HomeUserComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
