@@ -11,11 +11,11 @@ import { UsuarioComponent } from './usuario/usuario.component';
 import { HomeUserComponent } from './home-user/home-user.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
 import { QuartosComponent } from './quartos/quartos.component';
 import { PasseiosComponent } from './passeios/passeios.component';
 import { PacotesComponent } from './pacotes/pacotes.component';
 import { FaleConoscoComponent } from './fale-conosco/fale-conosco.component';
+import { HeadComponent } from './head/head.component';
 
 @NgModule({
   declarations: [
@@ -27,11 +27,11 @@ import { FaleConoscoComponent } from './fale-conosco/fale-conosco.component';
     HomeUserComponent,
     MenuComponent,
     FooterComponent,
-    HomeComponent,
     QuartosComponent,
     PasseiosComponent,
     PacotesComponent,
-    FaleConoscoComponent
+    FaleConoscoComponent,
+    HeadComponent
   ],
   imports: [
     BrowserModule,
