@@ -79,10 +79,11 @@
     bottom: 0;
     right: 0;
     background: #00B4FF;
-    width: 32px;
-    height: 42px;
-    line-height: 42px;
+    width: 75px;
+    height: 75px;
+    line-height: 76px;
     text-align: center;
+    font-size: 34px;
     border-radius: 50%;
     overflow: hidden;
   }
