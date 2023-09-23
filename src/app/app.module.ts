@@ -16,6 +16,12 @@ import { PasseiosComponent } from './passeios/passeios.component';
 import { PacotesComponent } from './pacotes/pacotes.component';
 import { FaleConoscoComponent } from './fale-conosco/fale-conosco.component';
 import { HeadComponent } from './head/head.component';
+import { LayoutHomeUsuarioComponent } from './layout-home-usuario/layout-home-usuario.component';
+import { MenuHomeUsuarioComponent } from './menu-home-usuario/menu-home-usuario.component';
+import { FooterhomeUsuarioComponent } from './footerhome-usuario/footerhome-usuario.component';
+import { PerfilComponent } from './perfil/perfil.component';
+import { ReservaComponent } from './reserva/reserva.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +37,13 @@ import { HeadComponent } from './head/head.component';
     PasseiosComponent,
     PacotesComponent,
     FaleConoscoComponent,
-    HeadComponent
+    HeadComponent,
+    LayoutHomeUsuarioComponent,
+    MenuHomeUsuarioComponent,
+    FooterhomeUsuarioComponent,
+    PerfilComponent,
+    ReservaComponent,
+    
   ],
   imports: [
     BrowserModule,
