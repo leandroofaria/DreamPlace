@@ -369,3 +369,8 @@ body {
 .footer-links li a:hover {
     color: #555;
 }
+.login-btn {
+    background-color: #5F9DF7;
+    padding: 10px 25px;
+    border-radius: 10rem;
+}
