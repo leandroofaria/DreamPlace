@@ -22,6 +22,7 @@ import { FooterhomeUsuarioComponent } from './footerhome-usuario/footerhome-usua
 import { PerfilComponent } from './perfil/perfil.component';
 import { ReservaComponent } from './reserva/reserva.component';
 import { ValiarComponent } from './valiar/valiar.component';
+import { CancelarreservaComponent } from './cancelarreserva/cancelarreserva.component';
 
 
 @NgModule({
@@ -45,6 +46,7 @@ import { ValiarComponent } from './valiar/valiar.component';
     PerfilComponent,
     ReservaComponent,
     ValiarComponent,
+    CancelarreservaComponent,
     
   ],
   imports: [

@@ -8,6 +8,7 @@ import { LayoutHomeUsuarioComponent } from './layout-home-usuario/layout-home-us
 import { PerfilComponent } from './perfil/perfil.component';
 import { ReservaComponent } from './reserva/reserva.component';
 import { ValiarComponent } from './valiar/valiar.component';
+import { CancelarreservaComponent } from './cancelarreserva/cancelarreserva.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: 'layout-home-usuario', component: LayoutHomeUsuarioComponent},
   {path: 'perfil', component: PerfilComponent},
   {path: 'reserva', component: ReservaComponent},
-  {path: 'avaliar', component: ValiarComponent}
+  {path: 'avaliar', component: ValiarComponent},
+  {path: 'cancelarReserva', component: CancelarreservaComponent}
 
 ];
 
