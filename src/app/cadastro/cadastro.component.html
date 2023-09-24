@@ -1,0 +1,45 @@
+<header>
+    <app-menu></app-menu>
+</header>
+<main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>cadastro</h1>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field"><i class="fa-solid fa-user"></i>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">
+                        Email
+                        <div class="input-field"><i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="senha">
+                        Senha
+                        <div class="input-field"><i class="fa-solid fa-lock"></i>
+                        <input type="password" id="senha" name="senha">
+                    </div>
+                    </label>
+
+                    <div id="forgot_password"><a href="#">Esqueceu sua senha?</a></div>
+                </div>
+                <br>
+                <div id="cadastro"><a href="#">Ainda não possui uma conta?<br> Cadastre-se aqui!</a></div>
+                
+            </div>
+            <button type="submit" id="Login-button" routerLink="/layout-home-usuario">Login</button>
+        </form>
+    </main>

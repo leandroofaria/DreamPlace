@@ -1,0 +1,125 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    background: #FFF7E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login_form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 12px;
+    gap: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+}
+
+#form_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form_header h1 { 
+    font-size: 35px;
+    position: relative;
+}
+
+#form_header h1::before { 
+    position: absolute;
+    content: "";
+    width: 40%;
+    background-color: #FF731D;
+    height: 3px;
+    bottom:1px;
+    border-radius: 5px;
+}
+
+#mode_icon {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-box label {
+    font-size: 14px;
+    color: #1746a2;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid #1746a2;
+}
+
+.input-field i {
+    font-size: 15px;
+    color: black;
+}
+
+.input-field input {
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 18px;
+    padding: 0px 5px;
+
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+#forgot_password {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+
+}
+
+#forgot_password:HOVER {
+    color: #5f9df7;
+}
+
+#cadastro {
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+#Login-button {
+    border: none;
+    cursor: pointer;
+    background: #5F9DF7;
+    color: #FFF7E9;
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 1.05s;
+}
+
+#Login-button:hover {
+    transform: scale(1.1); /* Quando o mouse passar sobre o botão, aumente o tamanho em 10% */
+}

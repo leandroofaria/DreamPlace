@@ -7,6 +7,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { LayoutHomeUsuarioComponent } from './layout-home-usuario/layout-home-usuario.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { ReservaComponent } from './reserva/reserva.component';
+import { ValiarComponent } from './valiar/valiar.component';
 
 
 const routes: Routes = [
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path: 'cadastro', component: CadastroComponent},
   {path: 'layout-home-usuario', component: LayoutHomeUsuarioComponent},
   {path: 'perfil', component: PerfilComponent},
-  {path: 'reserva', component: ReservaComponent}
+  {path: 'reserva', component: ReservaComponent},
+  {path: 'avaliar', component: ValiarComponent}
 
 ];
 
