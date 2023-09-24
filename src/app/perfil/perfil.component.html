@@ -1,1 +1,92 @@
-<p>perfil works!</p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <app-head></app-head>
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Perfil-Usuario</title>
+        
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+           <app-menu-home-usuario></app-menu-home-usuario>
+          </nav>
+        <!-- END nav -->
+        <div class="hero-wrap" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+              <div class="col-lg-6 col-md-6 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <form action="#" class="request-form ftco-animate">
+                  <div id="imgPerfil" class="col-md-6">
+                    <h2>Editar Imagem</h2>
+                      <img src="./images/noprofil.jpg" width="500" height="500">
+                      <div class="round">
+                        <input type="file">
+                        <!--tem que clicar na camera pra poder trocar de imagem, to tentando achar um jeito de aumentar ela-->
+                        <i class="fa fa-camera fa-lg"></i>                      
+                      </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-6">
+                <form action="#" class="request-form ftco-animate">
+                    <h2>Editar Perfil</h2>
+                    <div class="col-md-12">
+                      <label for="perfil_nome" class="form-label" draggable="true" style="color: blue;">Nome</label>
+                      <input class="form-control" type="text" name="nome" placeholder="name">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="perfil_email" class="form-label" draggable="true" style="color: blue;">Email</label>
+                      <input class="form-control" type="email" name="email" placeholder="exemplo@gmail.com">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="perfil_senha" class="form-label" draggable="true" style="color: blue;">Senha</label>
+                      <input class="form-control" type="password" name="senha" placeholder="password">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="perfil_cpf" class="form-label" draggable="true" style="color: blue;">CPF</label>
+                      <input class="form-control" type="number" name="cpf" placeholder="CPF">
+                    </div>
+                    <div class="col-md-12">
+                      <label for="perfil_number" class="form-label" draggable="true" style="color: blue;">Numero</label>
+                      <input class="form-control" type="number" name="numero" placeholder="xxxxx-xxxx">
+                    </div>
+                    <br>
+                    <div class="form-group" >
+                      <input type="submit" value="Atualizar" class="btn btn-primary py-3 px-4">
+                    </div>
+                </form>
+              </div>     
+            </div> 
+          </div>
+        </div>
+
+
+        <footer>
+            <app-footerhome-usuario></app-footerhome-usuario>
+        </footer>
+        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/avaliar.js"></script>
+        <script src="js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery.animateNumber.min.js"></script>
+        <script src="js/scrollax.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+        <script src="js/google-map.js"></script>
+        <script src="js/main.js"></script> 
+    </body>
+</html>
