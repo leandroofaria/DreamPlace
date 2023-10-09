@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     list-style: none;
     text-decoration: none;
+    margin-right:1rem;
 }
 
 :root{
@@ -37,6 +38,7 @@ body {
     font-size: 1.7rem;
     font-weight: 600;
     transition: all 0.5s;
+    margin-right: 60rem;
 }
 
 .logo span {
@@ -58,11 +60,12 @@ body {
     background-color: #5F9DF7;
     padding: 10px 25px;
     border-radius: 10rem;
+
 }
 
 .login-btn:hover {
     background-color: #FFF7E9;
-;
+
 }
 
 .navigation ul li a {
